@@ -1,0 +1,600 @@
+@charset "UTF-8";
+/* reset */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Noto+Sans+KR:wght@500&family=Poppins:wght@300&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #111;
+}
+
+/* font */
+@font-face {
+  font-family: "Pretendard-Regular";
+  src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+/* font */
+* {
+  font-family: "Pretendard-Regular";
+}
+
+/* 공통 단어별 줄바꿈 */
+* {
+  word-break: keep-all;
+}
+
+/* overflow-x:hidden; 선언 */
+/* pc */
+/* pc */
+/* pc */
+@media all and (min-width: 1221px) {
+  /* title 공통 적용 */
+  .title {
+    font-family: "Montserrat", sans-serif;
+    font-size: 40px;
+  }
+  .title .line {
+    height: 2px;
+    margin-top: 4px;
+  }
+  /* more 버튼 공통 스타일 적용 */
+  .more a {
+    display: block;
+    font-size: 20px;
+    padding: 10px 0px;
+    text-align: center;
+    color: #003fe2;
+    border: 1px solid #003fe2;
+    transition: 0.8s;
+  }
+  .more a:hover {
+    background: #003fe2;
+    color: #fff;
+  }
+  /* index 뺀 나머지 부분 visual animation */
+  @keyframes bg {
+    100% {
+      transform: scale(1);
+    }
+  }
+  @keyframes up {
+    100% {
+      opacity: 1;
+      top: 50%;
+    }
+  }
+  /* header */
+  header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 25vw 10px 4vw;
+    box-shadow: 1px 1px 3px 2px #e7e7e7;
+    background: rgba(255, 255, 255, 0.7);
+    -webkit-backdrop-filter: blur(5px);
+            backdrop-filter: blur(5px);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 90;
+    /* 햄버거바, 모바일부터 생성*/
+  }
+  header h1 a img {
+    width: 120px;
+  }
+  header .menu {
+    display: flex;
+    gap: 10vw;
+    transform: translateY(-15%);
+  }
+  header .menu li {
+    position: relative;
+  }
+  header .menu li a {
+    font-size: 20px;
+  }
+  header .menu li .line {
+    width: 0%;
+    height: 2.5px;
+    background: #003fe2;
+    position: absolute;
+    bottom: -6px;
+    transition: 0.3s;
+  }
+  header .menu li:hover .line {
+    width: 100%;
+  }
+  header .mobile-menu-wrap {
+    display: none;
+  }
+  header .ham-wrap {
+    width: 40px;
+    height: 30px;
+    position: relative;
+    cursor: pointer;
+    display: none;
+  }
+  header .ham-wrap li {
+    width: 100%;
+    height: 4px;
+    background: #111;
+    position: absolute;
+    left: 0px;
+  }
+  header .ham-wrap .ham1 {
+    top: 0px;
+  }
+  header .ham-wrap .ham2 {
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  header .ham-wrap .ham3 {
+    bottom: 0px;
+  }
+  /* footer */
+  footer {
+    background: #00014c;
+    color: #fff;
+    padding: 50px 10vw 50px;
+  }
+  footer a {
+    color: #fff;
+  }
+  footer .footer-top {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 100px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.4);
+  }
+  footer .footer-top .pfizer {
+    text-align: center;
+  }
+  footer .footer-top .pfizer h4 {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  footer .footer-top .pfizer h4 a:hover {
+    opacity: 0.8;
+  }
+  footer .footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+    gap: 10px;
+  }
+  footer .footer-bottom p {
+    opacity: 0.8;
+  }
+  footer .footer-bottom .sns {
+    display: flex;
+    gap: 7px;
+  }
+  footer .footer-bottom .sns li {
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+  footer .footer-bottom .sns li:hover {
+    opacity: 0.7;
+  }
+  footer .footer-bottom .sns li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  footer .footer-bottom .sns li a img {
+    width: 100%;
+    height: 100%;
+  }
+}
+/* 태블릿 */
+/* 태블릿 */
+/* 태블릿 */
+@media all and (min-width: 768px) and (max-width: 1220px) {
+  /* title 공통 적용 */
+  .title {
+    font-family: "Montserrat", sans-serif;
+    font-size: 32px;
+  }
+  .title .line {
+    height: 2px;
+    margin-top: 4px;
+  }
+  /* more 버튼 공통 스타일 적용 */
+  .more a {
+    display: block;
+    font-size: 20px;
+    padding: 10px 0px;
+    text-align: center;
+    color: #003fe2;
+    border: 1px solid #003fe2;
+    transition: 0.8s;
+  }
+  .more a:hover {
+    background: #003fe2;
+    color: #fff;
+  }
+  /* index 뺀 나머지 부분 visual animation */
+  @keyframes bg {
+    100% {
+      transform: scale(1);
+    }
+  }
+  @keyframes up {
+    100% {
+      opacity: 1;
+      top: 50%;
+    }
+  }
+  /* header */
+  header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 14vw 10px 5vw;
+    box-shadow: 1px 1px 3px 2px #e7e7e7;
+    background: rgba(255, 255, 255, 0.7);
+    -webkit-backdrop-filter: blur(5px);
+            backdrop-filter: blur(5px);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 90;
+    /* 햄버거바, 모바일부터 생성*/
+  }
+  header h1 a img {
+    width: 100px;
+  }
+  header .menu {
+    display: flex;
+    gap: 8vw;
+    transform: translateY(-15%);
+  }
+  header .menu li {
+    position: relative;
+  }
+  header .menu li a {
+    font-size: 18px;
+  }
+  header .menu li .line {
+    width: 0%;
+    height: 2.5px;
+    background: #003fe2;
+    position: absolute;
+    bottom: -6px;
+    transition: 0.3s;
+  }
+  header .menu li:hover .line {
+    width: 100%;
+  }
+  header .mobile-menu-wrap {
+    display: none;
+  }
+  header .ham-wrap {
+    width: 40px;
+    height: 30px;
+    position: relative;
+    cursor: pointer;
+    display: none;
+  }
+  header .ham-wrap li {
+    width: 100%;
+    height: 4px;
+    background: #111;
+    position: absolute;
+    left: 0px;
+  }
+  header .ham-wrap .ham1 {
+    top: 0px;
+  }
+  header .ham-wrap .ham2 {
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  header .ham-wrap .ham3 {
+    bottom: 0px;
+  }
+  /* footer */
+  footer {
+    background: #00014c;
+    color: #fff;
+    padding: 50px 10vw 50px;
+  }
+  footer a {
+    color: #fff;
+  }
+  footer .footer-top {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 100px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.4);
+  }
+  footer .footer-top .pfizer {
+    text-align: center;
+  }
+  footer .footer-top .pfizer h4 {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  footer .footer-top .pfizer h4 a:hover {
+    opacity: 0.8;
+  }
+  footer .footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    align-items: center;
+    padding-top: 50px;
+  }
+  footer .footer-bottom p {
+    opacity: 0.8;
+  }
+  footer .footer-bottom p span {
+    display: none;
+  }
+  footer .footer-bottom .sns {
+    display: flex;
+    gap: 7px;
+  }
+  footer .footer-bottom .sns li {
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+  footer .footer-bottom .sns li:hover {
+    opacity: 0.7;
+  }
+  footer .footer-bottom .sns li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  footer .footer-bottom .sns li a img {
+    width: 100%;
+    height: 100%;
+  }
+}
+/* 모바일 */
+/* 모바일 */
+/* 모바일 */
+@media all and (max-width: 767px) {
+  /* title 공통 적용 */
+  .title {
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    white-space: wrap;
+  }
+  .title .line {
+    height: 2px;
+    margin-top: 4px;
+  }
+  /* more 버튼 공통 스타일 적용 */
+  .more a {
+    display: block;
+    font-size: 20px;
+    padding: 10px 0px;
+    text-align: center;
+    color: #003fe2;
+    border: 1px solid #003fe2;
+    transition: 0.8s;
+  }
+  .more a:hover {
+    background: #003fe2;
+    color: #fff;
+  }
+  /* index 뺀 나머지 부분 visual animation */
+  @keyframes bg {
+    100% {
+      transform: scale(1);
+    }
+  }
+  @keyframes up {
+    100% {
+      opacity: 1;
+      top: 50%;
+    }
+  }
+  /* header */
+  header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 8vw 8px 6vw;
+    box-shadow: 1px 1px 3px 2px #e7e7e7;
+    background: rgba(255, 255, 255, 0.7);
+    -webkit-backdrop-filter: blur(5px);
+            backdrop-filter: blur(5px);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 90;
+    /* 모바일 메뉴 화면 */
+    /* 햄버거바, 모바일부터 생성*/
+  }
+  header h1 {
+    position: relative;
+    z-index: 100;
+  }
+  header h1 a img {
+    width: 80px;
+  }
+  header .menu {
+    display: none;
+    gap: 10vw;
+    transform: translateY(-15%);
+  }
+  header .menu li {
+    position: relative;
+  }
+  header .menu li a {
+    font-size: 20px;
+  }
+  header .menu li .line {
+    width: 0%;
+    height: 2.5px;
+    background: #003fe2;
+    position: absolute;
+    bottom: -6px;
+    transition: 0.3s;
+  }
+  header .menu li:hover .line {
+    width: 100%;
+  }
+  header .mobile-menu-wrap {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    transform: translateY(-100%);
+    transition: 1s;
+    z-index: 80;
+    width: 100%;
+    height: 100vh;
+    background: rgba(255, 255, 255, 0.95);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  header .mobile-menu-wrap .mobile-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+  }
+  header .mobile-menu-wrap .mobile-menu li {
+    font-size: 30px;
+  }
+  header .mobile-menu-wrap .mobile-menu li a {
+    display: block;
+    height: 100%;
+  }
+  header .mobile-menu-wrap .mobile-menu li .line {
+    width: 0%;
+    height: 3px;
+    margin-top: 3px;
+    background: #003fe2;
+    transition: 0.5s;
+  }
+  header .mobile-menu-wrap .mobile-menu li:hover .line {
+    width: 100%;
+  }
+  header .mobile-menu-wrap.on {
+    transform: translateY(0px);
+  }
+  header .ham-wrap {
+    width: 25px;
+    height: 20px;
+    position: relative;
+    bottom: 3px;
+    cursor: pointer;
+    display: block;
+    z-index: 100;
+  }
+  header .ham-wrap li {
+    width: 100%;
+    height: 3px;
+    background: #111;
+    position: absolute;
+    left: 0px;
+    transition: 0.5s;
+  }
+  header .ham-wrap .ham1 {
+    top: 0px;
+  }
+  header .ham-wrap .ham2 {
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  header .ham-wrap .ham3 {
+    bottom: 0px;
+  }
+  header .ham-wrap.on .ham1 {
+    top: 50%;
+    transform: translateY(-50%) rotate(45deg);
+  }
+  header .ham-wrap.on .ham2 {
+    opacity: 0;
+  }
+  header .ham-wrap.on .ham3 {
+    bottom: 50%;
+    transform: translateY(50%) rotate(-45deg);
+  }
+  /* footer */
+  footer {
+    background: #00014c;
+    color: #fff;
+    padding: 30px 10vw 30px;
+  }
+  footer a {
+    color: #fff;
+  }
+  footer .footer-top {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 80px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.4);
+  }
+  footer .footer-top img {
+    width: 90px;
+  }
+  footer .footer-top .pfizer {
+    text-align: center;
+  }
+  footer .footer-top .pfizer h4 {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  footer .footer-top .pfizer h4 a:hover {
+    opacity: 0.8;
+  }
+  footer .footer-bottom {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 30px;
+    padding-top: 40px;
+  }
+  footer .footer-bottom p {
+    opacity: 0.8;
+    font-size: 12px;
+  }
+  footer .footer-bottom p span {
+    display: none;
+  }
+  footer .footer-bottom .sns {
+    display: flex;
+    gap: 7px;
+  }
+  footer .footer-bottom .sns li {
+    width: 40px;
+    height: 40px;
+    border-radius: 15px;
+    overflow: hidden;
+  }
+  footer .footer-bottom .sns li:hover {
+    opacity: 0.7;
+  }
+  footer .footer-bottom .sns li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  footer .footer-bottom .sns li a img {
+    width: 100%;
+    height: 100%;
+  }
+}
