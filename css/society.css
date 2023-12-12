@@ -155,7 +155,7 @@ header .menu li:nth-of-type(4) .line {
   }
   .container .con2 {
     background: #00014c;
-    padding: 7vw 0px;
+    padding: 130px 0px;
     opacity: 0;
     transform: translateY(40px);
     transition: 1s;
@@ -224,7 +224,7 @@ header .menu li:nth-of-type(4) .line {
     opacity: 1;
   }
   .container .con3 {
-    padding: 7vw 0px;
+    padding: 130px 0px;
   }
   .container .con3 .con3-inner {
     width: 80%;
@@ -282,7 +282,7 @@ header .menu li:nth-of-type(4) .line {
   }
   .container .con4 {
     background: #00014c;
-    padding: 7vw 0px;
+    padding: 130px 0px;
     color: #fff;
     opacity: 0;
     transform: translateY(40px);
@@ -358,7 +358,7 @@ header .menu li:nth-of-type(4) .line {
     opacity: 1;
   }
   .container .con5 {
-    padding: 7vw 0px;
+    padding: 130px 0px;
   }
   .container .con5 .con5-inner {
     width: 80%;
@@ -400,7 +400,7 @@ header .menu li:nth-of-type(4) .line {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 1vw;
+    gap: 20px;
     padding: 3.2vw 2vw;
     background: #f4f4f4;
     border-radius: 10px;
@@ -827,7 +827,7 @@ header .menu li:nth-of-type(4) .line {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 1vw;
+    gap: 20px;
     padding: 3vw 3vw;
     background: #f4f4f4;
     border-radius: 10px;
