@@ -891,6 +891,7 @@ header .menu li:nth-of-type(3) .line {
           }
         }
       }
+      /* 약품 슬라이드 */
       .con1-content {
         display: flex;
         align-items: end;
@@ -903,7 +904,7 @@ header .menu li:nth-of-type(3) .line {
           font-weight: bold;
           font-size: 8vw;
           writing-mode: vertical-rl;
-          transform: rotate(180deg);
+          transform: rotate(180deg) translateY(20%);
           position: relative;
           bottom: 10vw;
           left: 0.5vw;
@@ -915,20 +916,6 @@ header .menu li:nth-of-type(3) .line {
           overflow: hidden;
           // height: 20vw;
           height: 50vw;
-
-          // .slide-bg {
-          //   width: 7vw;
-          //   height: 19vw;
-          //   background: linear-gradient(
-          //     to left,
-          //     rgba(20, 20, 20, 0) 0%,
-          //     rgba(20, 20, 20, 0.2) 100%
-          //   );
-          //   position: absolute;
-          //   top: 0px;
-          //   left: 0vw;
-          //   z-index: 10;
-          // }
           .con1-slide {
             // width: 550%;
             width: 800%;
@@ -1112,6 +1099,7 @@ header .menu li:nth-of-type(3) .line {
               }
             }
             .search-text {
+              font-size:14px;
               span {
                 margin-right: 35px;
                 a {
@@ -1132,7 +1120,6 @@ header .menu li:nth-of-type(3) .line {
             opacity: 0;
             transform: translateX(20px);
             transition: 1s 1s;
-            // border: 1px solid #f00;
             .alpha {
               // width: 3%;
               li {
@@ -1152,7 +1139,7 @@ header .menu li:nth-of-type(3) .line {
                   display: inline-block;
                   a {
                     color: #003fe2;
-                    font-size: 18px;
+                    font-size: 14px;
                     &:hover{
                       text-decoration: underline;
                     }
@@ -1160,7 +1147,7 @@ header .menu li:nth-of-type(3) .line {
                 }
                 p {
                   color: #777;
-                  font-size: 16px;
+                  font-size: 12px;
                 }
               }
             }

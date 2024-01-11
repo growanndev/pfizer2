@@ -916,6 +916,7 @@ header .menu li:nth-of-type(2) .line {
   #container .con2 .con2-inner .con2-title h2 {
     opacity: 0;
     transition: 0.5s;
+    white-space: nowrap;
   }
   #container .con2 .con2-inner .con2-title .line {
     width: 0%;
@@ -924,7 +925,7 @@ header .menu li:nth-of-type(2) .line {
     transition: 1s 0.5s;
   }
   #container .con2 .con2-inner > p {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
     margin: 20px 0px 60px;
     opacity: 0;
@@ -986,6 +987,7 @@ header .menu li:nth-of-type(2) .line {
   #container .con3 .con3-title h2 {
     opacity: 0;
     transition: 0.5s;
+    white-space: nowrap;
   }
   #container .con3 .con3-title .line {
     width: 0%;
@@ -996,7 +998,7 @@ header .menu li:nth-of-type(2) .line {
   #container .con3 p {
     width: 80%;
     font-size: 16px;
-    margin: 80px 0px 100px;
+    margin: 80px 0px 50px;
     opacity: 0;
     transform: translateY(20px);
     transition: 1s 1.8s;
@@ -1012,9 +1014,9 @@ header .menu li:nth-of-type(2) .line {
     border-radius: 30px;
   }
   #container .con3 .con3-bg {
-    width: 70%;
+    width: 80%;
     position: absolute;
-    top: 5vw;
+    top: 10vw;
     right: -2vw;
     z-index: -1;
     opacity: 0;
@@ -1042,7 +1044,7 @@ header .menu li:nth-of-type(2) .line {
   }
   #container .con4 {
     width: 100%;
-    background: url(../img/r&d\ con4_bg.jpg) no-repeat center/cover;
+    background: url(../img/r&d\ con4_bg.jpg) no-repeat left/cover;
     color: #fff;
     padding: 100px 0px 80px;
   }
@@ -1068,7 +1070,7 @@ header .menu li:nth-of-type(2) .line {
   #container .con4 .con4-inner .con4-list li {
     width: 30vw;
     text-align: center;
-    margin: 0px auto 70px;
+    margin: 0px auto 50px;
     opacity: 0;
     transform: translateY(30px);
   }
@@ -1089,7 +1091,7 @@ header .menu li:nth-of-type(2) .line {
     align-items: center;
   }
   #container .con4 .con4-inner .con4-list li .icon-wrap img {
-    width: 30%;
+    width: 35%;
     transition: 0.5s;
   }
   #container .con4 .con4-inner .con4-list li .line {

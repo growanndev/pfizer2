@@ -931,7 +931,7 @@ header .menu li:nth-of-type(4) .line {
     font-size: 20px;
   }
   .container .description {
-    font-size: 16px;
+    font-size: 14px;
   }
   .container .con1 {
     padding: 100px 0px;
@@ -1245,7 +1245,7 @@ header .menu li:nth-of-type(4) .line {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 15px;
+    gap: 5vw;
     padding: 5vw 3vw;
     background: #f4f4f4;
     border-radius: 10px;
@@ -1255,11 +1255,11 @@ header .menu li:nth-of-type(4) .line {
     width: 15%;
   }
   .container .con5 .con5-inner .con5-list li .con5-list-text h4 {
-    font-size: 16px;
+    font-size: 14px;
     margin-bottom: 1.5vw;
   }
   .container .con5 .con5-inner .con5-list li .con5-list-text p {
-    font-size: 14px;
+    font-size: 12px;
     color: #777;
   }
   .container .con5.on .con5-title {

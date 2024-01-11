@@ -959,7 +959,7 @@ header .menu li:nth-of-type(1) .line {
     transition: 0.5s;
   }
   #container .con2 .con2-inner .con2-list li p {
-    font-size: 16px;
+    font-size: 15px;
     text-align: center;
     padding: 6vw 0px;
   }
@@ -996,7 +996,7 @@ header .menu li:nth-of-type(1) .line {
   }
   #container .con3 .con3-list-wrap .con3-bg {
     display: inline-block;
-    width: 50%;
+    width: 100%;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -1012,7 +1012,7 @@ header .menu li:nth-of-type(1) .line {
     display: flex;
     justify-content: start;
     align-items: center;
-    gap: 6vw;
+    gap: 4vw;
     padding: 1.2vw 0px 1.2vw 1.5vw;
     opacity: 0;
     transform: translateY(20px);
@@ -1021,12 +1021,12 @@ header .menu li:nth-of-type(1) .line {
   #container .con3 .con3-list-wrap .con3-list li h3 {
     font-family: "Montserrat", sans-serif;
     color: #003fe2;
-    font-size: 26px;
+    font-size: 22px;
   }
   #container .con3 .con3-list-wrap .con3-list li .text-wrap h4 {
     font-family: "Montserrat", sans-serif;
     color: #ccc;
-    font-size: 14px;
+    font-size: 13px;
     margin-bottom: 10px;
   }
   #container .con3 .con3-list-wrap .con3-list li .text-wrap p {
@@ -1093,7 +1093,7 @@ header .menu li:nth-of-type(1) .line {
   }
   #container .con4 .con4-inner .map iframe {
     width: 100%;
-    height: 50vw;
+    height: 60vw;
     border-radius: 30px;
   }
   #container .con4 .con4-inner .info {
