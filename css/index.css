@@ -1652,6 +1652,9 @@
     transform: translateY(80px);
     transition: 1s 0.8s;
   }
+  #container .con1 .con1-inner .con1-text br {
+    display: none;
+  }
   #container .con1 .con1-inner .con1-text p {
     font-size: 16px;
     margin-bottom: 40px;
@@ -1814,7 +1817,7 @@
     margin-top: 30px;
   }
   #container .con3 .con3-title .more a {
-    font-size: 16px;
+    font-size: 12px;
     width: 30vw;
     border-radius: 25px;
   }
@@ -1831,6 +1834,9 @@
     opacity: 0;
     transform: translateY(40px);
     transition: 0.8s 0.6s;
+  }
+  #container .con3 .con3-content .con3-left h3 br {
+    display: none;
   }
   #container .con3 .con3-content .con3-left form {
     width: 100%;
@@ -1889,7 +1895,7 @@
     border: 1px solid #003fe2;
   }
   #container .con3 .con3-content .con3-left .tag-list li p {
-    font-size: 16px;
+    font-size: 12px;
   }
   #container .con3 .con3-content .con3-right {
     width: 40%;
@@ -2057,7 +2063,7 @@
   }
   #container .con4 .con4-inner .con4-right .con4-list li .list-text p {
     color: #fff;
-    font-size: 16px;
+    font-size: 14px;
     margin-bottom: 30%;
   }
   #container .con4 .con4-inner .con4-right .con4-list li .list-text a {
@@ -2157,7 +2163,7 @@
     transition: 0.8s 1.8s;
   }
   #container .con5 .con5-inner .con5-text .global a {
-    font-size: 16px;
+    font-size: 14px;
     display: block;
     width: 100%;
     padding: 15px 0px;

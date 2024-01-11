@@ -343,7 +343,7 @@ a {
   footer .footer-bottom p {
     opacity: 0.8;
   }
-  footer .footer-bottom p span {
+  footer .footer-bottom p .ta-none {
     display: none;
   }
   footer .footer-bottom .sns {
@@ -563,16 +563,18 @@ a {
   }
   footer .footer-bottom {
     display: flex;
-    justify-content: end;
-    align-items: center;
-    gap: 30px;
+    justify-content: space-between;
+    align-items: end;
     padding-top: 40px;
   }
   footer .footer-bottom p {
     opacity: 0.8;
     font-size: 12px;
   }
-  footer .footer-bottom p span {
+  footer .footer-bottom p .ta-none {
+    display: none;
+  }
+  footer .footer-bottom p .mo-none {
     display: none;
   }
   footer .footer-bottom .sns {

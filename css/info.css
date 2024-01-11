@@ -830,7 +830,7 @@ header .menu li:nth-of-type(1) .line {
   }
   #container .con1 .con1-content .con1-left h3 {
     font-size: 20px;
-    margin: 10vw 0px 5vw;
+    margin: 12vw 0px 5vw;
     opacity: 0;
     transform: translateY(40px);
     transition: 1s 0.8s;
@@ -844,6 +844,9 @@ header .menu li:nth-of-type(1) .line {
   }
   #container .con1 .con1-content .con1-left p:nth-of-type(2) {
     margin-top: 30px;
+  }
+  #container .con1 .con1-content .con1-left .mo-none {
+    display: none;
   }
   #container .con1 .con1-content .con1-right {
     width: 50%;
@@ -1023,11 +1026,11 @@ header .menu li:nth-of-type(1) .line {
   #container .con3 .con3-list-wrap .con3-list li .text-wrap h4 {
     font-family: "Montserrat", sans-serif;
     color: #ccc;
-    font-size: 18px;
+    font-size: 14px;
     margin-bottom: 10px;
   }
   #container .con3 .con3-list-wrap .con3-list li .text-wrap p {
-    font-size: 14px;
+    font-size: 12px;
   }
   #container .con3 .con3-list-wrap .con3-list li:nth-of-type(1) {
     transition: 1s 1s;
@@ -1099,7 +1102,7 @@ header .menu li:nth-of-type(1) .line {
     transition: 1s 1.3s;
   }
   #container .con4 .con4-inner .info p {
-    font-size: 16px;
+    font-size: 14px;
   }
   #container .con4.on h2 {
     opacity: 1 !important;
