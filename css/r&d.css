@@ -5,6 +5,11 @@ header .menu li:nth-of-type(2) .line {
   width: 100%;
 }
 
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
 /* pc */
 /* pc */
 /* pc */
