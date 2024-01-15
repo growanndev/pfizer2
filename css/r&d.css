@@ -760,6 +760,9 @@ body {
 /* 모바일 */
 /* 모바일 */
 @media all and (max-width: 767px) {
+  html, body {
+    overflow-x: hidden;
+  }
   /* visual */
   /* visual */
   /* visual */
