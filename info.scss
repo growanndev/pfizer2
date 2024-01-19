@@ -66,7 +66,6 @@ header .menu li:nth-of-type(1) .line {
       padding: 11vw 0px 12vw;
       background: url(../img/info_con1-bg.svg) no-repeat center/cover;
       color: #fff;
-      // padding: 0vh 10vw;
       display: flex;
       align-items: center;
       .con1-inner {
@@ -86,6 +85,7 @@ header .menu li:nth-of-type(1) .line {
       .con1-content {
         display: flex;
         justify-content: space-between;
+        align-items:center;
         word-break: keep-all;
         .con1-left {
           width: 60%;
@@ -222,12 +222,11 @@ header .menu li:nth-of-type(1) .line {
               background: url(../img/info_con2_4.jpg) no-repeat center/cover;
             }
             .img-wrap {
-              // height: 450px;
               height: 17vw;
               transition: 0.5s;
             }
             p {
-              font-size: 20px;
+              font-size:1vw;
               text-align: center;
               padding: 2vw 0px;
             }
@@ -459,7 +458,6 @@ header .menu li:nth-of-type(1) .line {
       padding: 11vw 0px 12vw;
       background: url(../img/info_con1-bg.svg) no-repeat center/cover;
       color: #fff;
-      // padding: 0vh 10vw;
       display: flex;
       align-items: center;
       .con1-inner {
@@ -470,7 +468,6 @@ header .menu li:nth-of-type(1) .line {
       .title {
         .line {
           width: 0%;
-          // width: 60%;
           background: rgba(255, 255, 255, 0.6);
           transition: 1.3s;
         }
@@ -479,6 +476,7 @@ header .menu li:nth-of-type(1) .line {
       .con1-content {
         display: flex;
         justify-content: space-between;
+        align-items:center;
         word-break: keep-all;
         .con1-left {
           width: 55%;
@@ -938,9 +936,6 @@ header .menu li:nth-of-type(1) .line {
     .con2 {
       width: 100%;
       background: #fafafa;
-      // display: flex;
-      // justify-content: center;
-      // align-items: center;
       padding: 15vw 0px 10vw;
       .con2-inner {
         width: 100%;
@@ -959,7 +954,6 @@ header .menu li:nth-of-type(1) .line {
           }
           .line {
             width: 0%;
-            // width: 75%;
             height: 2px;
             background: #111;
             transition: 1s 0.5s;
@@ -1047,7 +1041,6 @@ header .menu li:nth-of-type(1) .line {
     /* con3 */
     /* con3 */
     .con3 {
-      // height: 100vh;
       padding: 15vw 0px;
       h2 {
         text-align: center;
@@ -1084,26 +1077,23 @@ header .menu li:nth-of-type(1) .line {
             align-items: center;
             gap: 4vw;
             padding: 1.2vw 0px 1.2vw 1.5vw;
-            // &:not(last-child) {
-            //   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-            // }
             opacity: 0;
             transform: translateY(20px);
             margin-bottom: 5vw;
             h3 {
               font-family: $en-font;
               color: $blue2;
-              font-size: 22px;
+              font-size:3.5vw;
             }
             .text-wrap {
               h4 {
                 font-family: $en-font;
                 color: #ccc;
-                font-size: 13px;
+                font-size:2vw;
                 margin-bottom: 10px;
               }
               p {
-                font-size: 12px;
+                font-size:2.4vw;
               }
             }
             &:nth-of-type(1) {

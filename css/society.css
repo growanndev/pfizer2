@@ -887,7 +887,7 @@ header .menu li:nth-of-type(4) .line {
     z-index: 0;
   }
   #visual .visual-wrap h2 {
-    font-size: 35px;
+    font-size: 6vw;
     letter-spacing: 2px;
     color: #fff;
     position: absolute;

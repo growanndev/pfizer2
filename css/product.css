@@ -769,7 +769,7 @@ header .menu li:nth-of-type(3) .line {
     /* con2 */
   }
   #container .con1 {
-    padding: 100px 0px;
+    padding: 100px 0px 90px;
     /* 약품 슬라이드 */
   }
   #container .con1 .con1-text {
@@ -951,7 +951,7 @@ header .menu li:nth-of-type(3) .line {
   #container .con2 .con2-top-wrap > h3 {
     text-align: center;
     font-size: 24px;
-    margin-bottom: 110px;
+    margin-bottom: 80px;
     opacity: 0;
     transform: translateY(20px);
     transition: 1s;

@@ -931,7 +931,7 @@
   #container .con1 .con1-inner .con1-text {
     display: flex;
     justify-content: space-between;
-    gap: 30px;
+    gap: 60px;
     margin: 100px 0px 50px;
     padding: 0px 20px 0px 15px;
     opacity: 0;
@@ -1584,6 +1584,11 @@
     /* con4 */
     /* con4 */
     /* con4 */
+    /* con5 */
+    /* con5 */
+    /* con5 */
+    /* con5 */
+    /* con5 */
   }
   #container .con1 {
     width: 100%;
@@ -1978,13 +1983,13 @@
     text-align: center;
     position: absolute;
     z-index: 10;
-    bottom: -15%;
+    bottom: -17%;
     right: 10%;
     transition: 0.7s;
   }
   #container .con4 .con4-inner .con4-right .con4-list li .list-text p {
     color: #fff;
-    font-size: 14px;
+    font-size: 2.6vw;
     margin-bottom: 30%;
   }
   #container .con4 .con4-inner .con4-right .con4-list li .list-text a {
@@ -2040,12 +2045,12 @@
   }
   #container .con5 {
     width: 100%;
-    height: 70vh;
+    height: 50vh;
     overflow: hidden;
   }
   #container .con5 .con5-inner {
     width: 100%;
-    height: 70vh;
+    height: 50vh;
     background: url(../img/main_con5.jpg) no-repeat center/cover;
     position: relative;
     transition: 1.4s;

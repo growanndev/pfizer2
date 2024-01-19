@@ -115,9 +115,6 @@ a {
   header .menu li:hover .line {
     width: 100%;
   }
-  header .mobile-menu-wrap {
-    display: none;
-  }
   header .ham-wrap {
     width: 40px;
     height: 30px;
@@ -141,6 +138,9 @@ a {
   }
   header .ham-wrap .ham3 {
     bottom: 0px;
+  }
+  .mobile-menu-wrap {
+    display: none;
   }
   /* footer */
   footer {
@@ -281,9 +281,6 @@ a {
   header .menu li:hover .line {
     width: 100%;
   }
-  header .mobile-menu-wrap {
-    display: none;
-  }
   header .ham-wrap {
     width: 40px;
     height: 30px;
@@ -307,6 +304,9 @@ a {
   }
   header .ham-wrap .ham3 {
     bottom: 0px;
+  }
+  .mobile-menu-wrap {
+    display: none;
   }
   /* footer */
   footer {
@@ -456,45 +456,6 @@ a {
   header .menu li:hover .line {
     width: 100%;
   }
-  header .mobile-menu-wrap {
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    transform: translateY(-100%);
-    transition: 1s;
-    z-index: 80;
-    width: 100%;
-    height: 100vh;
-    background: rgba(255, 255, 255, 0.95);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  header .mobile-menu-wrap .mobile-menu {
-    display: flex;
-    flex-direction: column;
-    gap: 60px;
-  }
-  header .mobile-menu-wrap .mobile-menu li {
-    font-size: 30px;
-  }
-  header .mobile-menu-wrap .mobile-menu li a {
-    display: block;
-    height: 100%;
-  }
-  header .mobile-menu-wrap .mobile-menu li .line {
-    width: 0%;
-    height: 3px;
-    margin-top: 3px;
-    background: #003fe2;
-    transition: 0.5s;
-  }
-  header .mobile-menu-wrap .mobile-menu li:hover .line {
-    width: 100%;
-  }
-  header .mobile-menu-wrap.on {
-    transform: translateY(0px);
-  }
   header .ham-wrap {
     width: 25px;
     height: 20px;
@@ -532,6 +493,46 @@ a {
   header .ham-wrap.on .ham3 {
     bottom: 50%;
     transform: translateY(50%) rotate(-45deg);
+  }
+  /* 모바일 메뉴 화면 */
+  .mobile-menu-wrap {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    transform: translateY(-100%);
+    transition: 1s;
+    z-index: 80;
+    width: 100%;
+    height: 100vh;
+    background: rgba(255, 255, 255, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .mobile-menu-wrap .mobile-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+  }
+  .mobile-menu-wrap .mobile-menu li {
+    font-size: 30px;
+  }
+  .mobile-menu-wrap .mobile-menu li a {
+    display: block;
+    height: 100%;
+  }
+  .mobile-menu-wrap .mobile-menu li .line {
+    width: 0%;
+    height: 3px;
+    margin-top: 3px;
+    background: #003fe2;
+    transition: 0.5s;
+  }
+  .mobile-menu-wrap .mobile-menu li:hover .line {
+    width: 100%;
+  }
+  .mobile-menu-wrap.on {
+    transform: translateY(0px);
   }
   /* footer */
   footer {

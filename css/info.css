@@ -90,6 +90,7 @@ header .menu li:nth-of-type(1) .line {
   #container .con1 .con1-content {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     word-break: keep-all;
   }
   #container .con1 .con1-content .con1-left {
@@ -222,7 +223,7 @@ header .menu li:nth-of-type(1) .line {
     transition: 0.5s;
   }
   #container .con2 .con2-inner .con2-list li p {
-    font-size: 20px;
+    font-size: 1vw;
     text-align: center;
     padding: 2vw 0px;
   }
@@ -456,6 +457,7 @@ header .menu li:nth-of-type(1) .line {
   #container .con1 .con1-content {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     word-break: keep-all;
   }
   #container .con1 .con1-content .con1-left {
@@ -1021,16 +1023,16 @@ header .menu li:nth-of-type(1) .line {
   #container .con3 .con3-list-wrap .con3-list li h3 {
     font-family: "Montserrat", sans-serif;
     color: #003fe2;
-    font-size: 22px;
+    font-size: 3.5vw;
   }
   #container .con3 .con3-list-wrap .con3-list li .text-wrap h4 {
     font-family: "Montserrat", sans-serif;
     color: #ccc;
-    font-size: 13px;
+    font-size: 2vw;
     margin-bottom: 10px;
   }
   #container .con3 .con3-list-wrap .con3-list li .text-wrap p {
-    font-size: 12px;
+    font-size: 2.4vw;
   }
   #container .con3 .con3-list-wrap .con3-list li:nth-of-type(1) {
     transition: 1s 1s;
