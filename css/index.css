@@ -2023,7 +2023,7 @@
   }
   #container .con4 .con4-inner .con4-right .con4-list li .list-text p {
     color: #fff;
-    font-size: 2.6vw;
+    font-size: 2.7vw;
     margin-bottom: 30%;
   }
   #container .con4 .con4-inner .con4-right .con4-list li .list-text a {
@@ -2079,13 +2079,13 @@
   }
   #container .con5 {
     width: 100%;
-    height: 60vh;
+    height: 50vh;
     overflow: hidden;
     /* con5 스크롤 효과 */
   }
   #container .con5 .con5-inner {
     width: 100%;
-    height: 60vh;
+    height: 50vh;
     background: url(../img/main_con5.jpg) no-repeat center/cover;
     position: relative;
     transition: 1.4s;
@@ -2121,7 +2121,7 @@
   }
   #container .con5 .con5-inner .con5-text .global {
     width: 33vw;
-    margin: 80px auto 0px;
+    margin: 60px auto 0px;
     opacity: 0;
     transform: translateY(30px);
     transition: 0.8s 1.8s;
