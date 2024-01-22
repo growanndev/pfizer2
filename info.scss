@@ -863,6 +863,9 @@ header .menu li:nth-of-type(1) .line {
             opacity: 0;
             transform: translateY(40px);
             transition: 1s 0.8s;
+            br{
+              display:none;
+            }
           }
           p {
             font-size: 16px;

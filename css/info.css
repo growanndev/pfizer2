@@ -841,6 +841,9 @@ header .menu li:nth-of-type(1) .line {
     transform: translateY(40px);
     transition: 1s 0.8s;
   }
+  #container .con1 .con1-content .con1-left h3 br {
+    display: none;
+  }
   #container .con1 .con1-content .con1-left p {
     font-size: 16px;
     color: rgba(255, 255, 255, 0.8);
