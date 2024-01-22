@@ -1,18 +1,7 @@
 $(function () {
+ 
+
   /* 상품에 마우스 올렸을 때 효과 */
-  // $(".con1-slide li").mouseenter(function () {
-  //   $(".con1-slide").css("animation-play-state", "paused");
-
-  //   $(this).find(".text").css({ display: "none" });
-  //   $(this).find(".text-on").css({ display: "flex" });
-  // });
-
-  // $(".con1-slide li").mouseleave(function () {
-  //   $(".con1-slide").css("animation-play-state", "running");
-
-  //   $(this).find(".text").css({ display: "block" });
-  //   $(this).find(".text-on").css({ display: "none" });
-  // });
 
   $(window)
     .resize(function () {
@@ -29,7 +18,7 @@ $(function () {
           $(this).find(".text-on").css({ display: "none" });
         });
       } else {
-        /* pc, 태블릿일때 product */
+        /* pc, 태블릿일때 product 멈추기 */
         $(".con1-slide li").mouseenter(function () {
           $(".con1-slide").css("animation-play-state", "paused");
 

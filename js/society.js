@@ -1,4 +1,6 @@
 $(function () {
+
+  /* 스크롤 효과 */ 
   $(window).scroll(function () {
     let scroll = $(window).scrollTop();
     let baseline = -350;

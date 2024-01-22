@@ -1,4 +1,5 @@
 @charset "UTF-8";
+/* 공통 css */
 /* reset */
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Noto+Sans+KR:wght@500&family=Poppins:wght@300&display=swap");
 * {
@@ -17,12 +18,14 @@ a {
 }
 
 /* font */
+/* 한글 폰트 */
 @font-face {
   font-family: "Pretendard-Regular";
   src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff") format("woff");
   font-weight: 400;
   font-style: normal;
 }
+/* 영문 폰트 */
 /* font */
 * {
   font-family: "Pretendard-Regular";
@@ -33,7 +36,12 @@ a {
   word-break: keep-all;
 }
 
-/* overflow-x:hidden; 선언 */
+/* 가로 스크롤 방지 */
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
 /* pc */
 /* pc */
 /* pc */
@@ -116,28 +124,7 @@ a {
     width: 100%;
   }
   header .ham-wrap {
-    width: 40px;
-    height: 30px;
-    position: relative;
-    cursor: pointer;
     display: none;
-  }
-  header .ham-wrap li {
-    width: 100%;
-    height: 4px;
-    background: #111;
-    position: absolute;
-    left: 0px;
-  }
-  header .ham-wrap .ham1 {
-    top: 0px;
-  }
-  header .ham-wrap .ham2 {
-    top: 50%;
-    transform: translateY(-50%);
-  }
-  header .ham-wrap .ham3 {
-    bottom: 0px;
   }
   .mobile-menu-wrap {
     display: none;
@@ -282,28 +269,7 @@ a {
     width: 100%;
   }
   header .ham-wrap {
-    width: 40px;
-    height: 30px;
-    position: relative;
-    cursor: pointer;
     display: none;
-  }
-  header .ham-wrap li {
-    width: 100%;
-    height: 4px;
-    background: #111;
-    position: absolute;
-    left: 0px;
-  }
-  header .ham-wrap .ham1 {
-    top: 0px;
-  }
-  header .ham-wrap .ham2 {
-    top: 50%;
-    transform: translateY(-50%);
-  }
-  header .ham-wrap .ham3 {
-    bottom: 0px;
   }
   .mobile-menu-wrap {
     display: none;
@@ -424,7 +390,6 @@ a {
     top: 0px;
     left: 0px;
     z-index: 90;
-    /* 모바일 메뉴 화면 */
     /* 햄버거바, 모바일부터 생성*/
   }
   header h1 {
@@ -436,25 +401,6 @@ a {
   }
   header .menu {
     display: none;
-    gap: 10vw;
-    transform: translateY(-15%);
-  }
-  header .menu li {
-    position: relative;
-  }
-  header .menu li a {
-    font-size: 20px;
-  }
-  header .menu li .line {
-    width: 0%;
-    height: 2.5px;
-    background: #003fe2;
-    position: absolute;
-    bottom: -6px;
-    transition: 0.3s;
-  }
-  header .menu li:hover .line {
-    width: 100%;
   }
   header .ham-wrap {
     width: 25px;
@@ -496,15 +442,17 @@ a {
   }
   /* 모바일 메뉴 화면 */
   .mobile-menu-wrap {
+    width: 100%;
+    height: 100vh;
     position: fixed;
     top: 0px;
     left: 0px;
     transform: translateY(-100%);
     transition: 1s;
     z-index: 80;
-    width: 100%;
-    height: 100vh;
-    background: rgba(255, 255, 255, 0.9);
+    background: rgba(255, 255, 255, 0.7);
+    -webkit-backdrop-filter: blur(7px);
+            backdrop-filter: blur(7px);
     display: flex;
     justify-content: center;
     align-items: center;

@@ -1,12 +1,5 @@
 @charset "UTF-8";
 /* font */
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Noto+Sans+KR:wght@500&family=Poppins:wght@300&display=swap");
-@font-face {
-  font-family: "Pretendard-Regular";
-  src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff") format("woff");
-  font-weight: 400;
-  font-style: normal;
-}
 * {
   font-family: "Pretendard-Regular";
 }
@@ -39,7 +32,8 @@
     width: 100%;
     height: 100vh;
     position: relative;
-    /* 헤더 높이 빼준 값 */
+    /* visual 슬라이드 */
+    /* 슬라이드 상태 바 */
   }
   #visual .slide-wrap {
     height: 100%;
@@ -171,6 +165,10 @@
     /* con4 */
     /* con4 */
     /* con4 */
+    /* con5 */
+    /* con5 */
+    /* con5 */
+    /* con5 */
   }
   #container .con1 {
     width: 100%;
@@ -242,6 +240,7 @@
     height: 100vh;
     background: url(../img/main_con2-bg.png) no-repeat center/cover;
     padding: 18vh 0px;
+    /* con2 스크롤 효과 */
   }
   #container .con2 .con2-title {
     width: 80%;
@@ -273,6 +272,8 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    /* con2 왼쪽, 이미지 부분 */
+    /* con2 오른쪽, 내용부분 */
   }
   #container .con2 .con2-content .con2-left {
     width: 50%;
@@ -356,6 +357,7 @@
   #container .con3 {
     width: 100%;
     padding: 15vh 0px 10vh;
+    /* con3 스크롤 효과 */
   }
   #container .con3 .con3-title {
     width: 80%;
@@ -517,11 +519,13 @@
   #container .con4 {
     width: 100%;
     padding: 6vh 0px 15vh 17vw;
-    /* 스크롤 효과 */
+    /* con4 스크롤 효과 */
   }
   #container .con4 .con4-inner {
     display: flex;
     justify-content: space-between;
+    /* con4 왼쪽, 내용 부분 */
+    /* con4 오른쪽, 리스트 부분 */
   }
   #container .con4 .con4-inner .con4-left {
     width: 30%;
@@ -549,6 +553,7 @@
   }
   #container .con4 .con4-inner .con4-right {
     width: 65%;
+    /* 화살표 바 */
   }
   #container .con4 .con4-inner .con4-right .list-wrap {
     overflow: hidden;
@@ -567,6 +572,8 @@
     opacity: 0;
     transform: translate(80%, -5%);
     transition: 1s;
+    /* 가상요소 호버시 어둡게 처리 */
+    /* 요소 호버시 효과 */
   }
   #container .con4 .con4-inner .con4-right .con4-list li:nth-of-type(1) {
     background: url(../img/main_con4_1.png) no-repeat center/cover;
@@ -675,6 +682,7 @@
     width: 100%;
     height: 60vh;
     overflow: hidden;
+    /* con5 스크롤 효과 */
   }
   #container .con5 .con5-inner {
     width: 100%;
@@ -771,7 +779,8 @@
     width: 100%;
     height: 100vh;
     position: relative;
-    /* 헤더 높이 빼준 값 */
+    /* visual 슬라이드 */
+    /* 슬라이드 상태 바 */
   }
   #visual .slide-wrap {
     height: 100%;
@@ -903,6 +912,10 @@
     /* con4 */
     /* con4 */
     /* con4 */
+    /* con5 */
+    /* con5 */
+    /* con5 */
+    /* con5 */
   }
   #container .con1 {
     width: 100%;
@@ -977,6 +990,7 @@
     height: 100vh;
     background: url(../img/main_con2-bg.png) no-repeat center/cover;
     padding: 18vh 0px;
+    /* con2 스크롤 효과 */
   }
   #container .con2 .con2-title {
     width: 80%;
@@ -1007,6 +1021,8 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    /* con2 왼쪽, 이미지 부분 */
+    /* con2 오른쪽, 내용부분 */
   }
   #container .con2 .con2-content .con2-left {
     width: 50%;
@@ -1090,6 +1106,7 @@
   #container .con3 {
     width: 100%;
     padding: 15vh 0px 10vh;
+    /* con3 스크롤 효과 */
   }
   #container .con3 .con3-title {
     width: 80%;
@@ -1205,11 +1222,13 @@
   #container .con4 {
     width: 100%;
     padding: 6vh 0px 15vh 7vw;
-    /* 스크롤 효과 */
+    /* con4 스크롤 효과 */
   }
   #container .con4 .con4-inner {
     display: flex;
     justify-content: space-between;
+    /* con4 왼쪽, 내용 부분 */
+    /* con4 오른쪽, 리스트 부분 */
   }
   #container .con4 .con4-inner .con4-left {
     width: 30%;
@@ -1234,6 +1253,7 @@
   }
   #container .con4 .con4-inner .con4-right {
     width: 65%;
+    /* 화살표 바 */
   }
   #container .con4 .con4-inner .con4-right .list-wrap {
     overflow: hidden;
@@ -1252,6 +1272,8 @@
     opacity: 0;
     transform: translate(80%, -5%);
     transition: 1s;
+    /* 가상요소 호버시 어둡게 처리 */
+    /* 요소 호버시 효과 */
   }
   #container .con4 .con4-inner .con4-right .con4-list li:nth-of-type(1) {
     background: url(../img/main_con4_1.png) no-repeat center/cover;
@@ -1360,6 +1382,7 @@
     width: 100%;
     height: 60vh;
     overflow: hidden;
+    /* con5 스크롤 효과 */
   }
   #container .con5 .con5-inner {
     width: 100%;
@@ -1452,7 +1475,8 @@
     width: 100%;
     height: 100vh;
     position: relative;
-    /* 헤더 높이 빼준 값 */
+    /* visual 슬라이드 */
+    /* 슬라이드 상태 바 */
   }
   #visual .slide-wrap {
     height: 100%;
@@ -1663,6 +1687,7 @@
     width: 100%;
     padding: 100px 0px;
     background: url(../img/main_con2-bg.png) no-repeat center/cover;
+    /* con2 스크롤 효과 */
   }
   #container .con2 .con2-title {
     width: 80%;
@@ -1687,6 +1712,8 @@
   #container .con2 .con2-content {
     width: 80%;
     margin: 0px auto;
+    /* con2 왼쪽, 이미지 부분 */
+    /* con2 오른쪽, 내용부분 */
   }
   #container .con2 .con2-content .con2-left {
     width: 100%;
@@ -1772,6 +1799,7 @@
   #container .con3 {
     width: 100%;
     padding: 100px 0px;
+    /* con3 스크롤 효과 */
   }
   #container .con3 .con3-title {
     width: 80%;
@@ -1892,7 +1920,10 @@
   #container .con4 {
     width: 100%;
     padding: 60px 0px 100px 15vw;
-    /* 스크롤 효과 */
+    /* con4 스크롤 효과 */
+  }
+  #container .con4 .con4-inner {
+    /* con4 리스트 */
   }
   #container .con4 .con4-inner .con4-left {
     width: 100%;
@@ -1921,6 +1952,7 @@
   }
   #container .con4 .con4-inner .con4-right {
     width: 100%;
+    /* 화살표 바 */
   }
   #container .con4 .con4-inner .con4-right .list-wrap {
     overflow: hidden;
@@ -1939,6 +1971,8 @@
     opacity: 0;
     transform: translate(80%, -5%);
     transition: 1s;
+    /* 가상요소 호버시 어둡게 처리 */
+    /* 요소 호버시 효과 */
   }
   #container .con4 .con4-inner .con4-right .con4-list li:nth-of-type(1) {
     background: url(../img/main_con4_1.png) no-repeat center/cover;
@@ -2047,6 +2081,7 @@
     width: 100%;
     height: 50vh;
     overflow: hidden;
+    /* con5 스크롤 효과 */
   }
   #container .con5 .con5-inner {
     width: 100%;

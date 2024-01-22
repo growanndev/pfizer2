@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /* font */
-/* header 해당 페이지 선 */
+/* header 해당 페이지 표시선 */
 header .menu li:nth-of-type(3) .line {
   width: 100%;
 }
@@ -60,6 +60,8 @@ header .menu li:nth-of-type(3) .line {
   }
   #container .con1 {
     padding: 7vw 0px;
+    /* 약품 슬라이드 */
+    /* con1 스크롤 효과 */
   }
   #container .con1 .con1-text {
     width: 80%;
@@ -131,6 +133,7 @@ header .menu li:nth-of-type(3) .line {
     position: relative;
     opacity: 0;
     transform: translateY(40px);
+    /* 약품 요소 호버시 내용 on */
   }
   #container .con1 .con1-content .con1-slide-wrap .con1-slide li img {
     width: 100%;
@@ -221,6 +224,9 @@ header .menu li:nth-of-type(3) .line {
   #container .con2 {
     padding: 7vw 0px;
     background: #fafafa;
+    /* 제품 검색 */
+    /* 아래쪽 추가설명 */
+    /* con2 스크롤 효과 */
   }
   #container .con2 .con2-top-wrap {
     width: 80%;
@@ -243,6 +249,7 @@ header .menu li:nth-of-type(3) .line {
   #container .con2 .con2-top-wrap .con2-list-wrap {
     display: flex;
     justify-content: space-between;
+    /* 제품 리스트 */
   }
   #container .con2 .con2-top-wrap .con2-list-wrap .search {
     width: 43%;
@@ -415,6 +422,8 @@ header .menu li:nth-of-type(3) .line {
   }
   #container .con1 {
     padding: 100px 0px;
+    /* 약품 슬라이드 */
+    /* con1 스크롤 효과 */
   }
   #container .con1 .con1-text {
     width: 80%;
@@ -463,9 +472,9 @@ header .menu li:nth-of-type(3) .line {
     transition: 1s 1.5s;
   }
   #container .con1 .con1-content .con1-slide-wrap {
+    height: 28vw;
     position: relative;
     overflow: hidden;
-    height: 28vw;
   }
   #container .con1 .con1-content .con1-slide-wrap .con1-slide {
     width: 550%;
@@ -486,6 +495,7 @@ header .menu li:nth-of-type(3) .line {
     position: relative;
     opacity: 0;
     transform: translateY(40px);
+    /* 약품 요소 호버시 내용 on */
   }
   #container .con1 .con1-content .con1-slide-wrap .con1-slide li img {
     width: 100%;
@@ -580,6 +590,9 @@ header .menu li:nth-of-type(3) .line {
   #container .con2 {
     padding: 100px 0px;
     background: #fafafa;
+    /* 제품 검색 */
+    /* 아래쪽 추가설명 */
+    /* con2 스크롤 효과 */
   }
   #container .con2 .con2-top-wrap {
     width: 85%;
@@ -598,6 +611,9 @@ header .menu li:nth-of-type(3) .line {
     opacity: 0;
     transform: translateY(20px);
     transition: 1s;
+  }
+  #container .con2 .con2-top-wrap .con2-list-wrap {
+    /* 제품 리스트 */
   }
   #container .con2 .con2-top-wrap .con2-list-wrap .search {
     width: 80%;
@@ -745,7 +761,7 @@ header .menu li:nth-of-type(3) .line {
     z-index: 0;
   }
   #visual .visual-wrap h2 {
-    font-size: 35px;
+    font-size: 32px;
     letter-spacing: 2px;
     color: #fff;
     position: absolute;
@@ -771,6 +787,7 @@ header .menu li:nth-of-type(3) .line {
   #container .con1 {
     padding: 100px 0px 90px;
     /* 약품 슬라이드 */
+    /* con1 스크롤 효과 */
   }
   #container .con1 .con1-text {
     width: 80%;
@@ -841,6 +858,7 @@ header .menu li:nth-of-type(3) .line {
     position: relative;
     opacity: 0;
     transform: translateY(40px);
+    /* 약품 요소 호버시 내용 on */
   }
   #container .con1 .con1-content .con1-slide-wrap .con1-slide li img {
     width: 100%;
@@ -937,6 +955,9 @@ header .menu li:nth-of-type(3) .line {
   #container .con2 {
     padding: 100px 0px;
     background: #fafafa;
+    /* 제품 검색 */
+    /* 아래쪽 추가설명 */
+    /* con2 스크롤 효과 */
   }
   #container .con2 .con2-top-wrap {
     width: 90%;
@@ -955,6 +976,9 @@ header .menu li:nth-of-type(3) .line {
     opacity: 0;
     transform: translateY(20px);
     transition: 1s;
+  }
+  #container .con2 .con2-top-wrap .con2-list-wrap {
+    /* 제품 리스트 */
   }
   #container .con2 .con2-top-wrap .con2-list-wrap .search {
     width: 95%;

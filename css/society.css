@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /* font */
-/* header 해당 페이지 선 */
+/* header 해당 페이지 표시선 */
 header .menu li:nth-of-type(4) .line {
   width: 100%;
 }
@@ -84,22 +84,7 @@ header .menu li:nth-of-type(4) .line {
   .container .con1 {
     padding: 12vw 0px;
     position: relative;
-  }
-  .container .con1 .circle {
-    width: 40vw;
-    height: 40vw;
-    border-radius: 40vw;
-    background: #fafafa;
-    position: absolute;
-    bottom: -50%;
-    left: -20%;
-    z-index: -1;
-    animation: move 2s infinite alternate;
-  }
-  @keyframes move {
-    100% {
-      transform: translateY(10%);
-    }
+    /* con1 스크롤 효과 */
   }
   .container .con1 .con1-inner {
     width: 80%;
@@ -135,17 +120,6 @@ header .menu li:nth-of-type(4) .line {
     font-size: 24px;
     text-align: left;
   }
-  .container .con1 .con1-inner .con1-content .con1-pic {
-    width: 50%;
-    height: 25vw;
-  }
-  .container .con1 .con1-inner .con1-content .con1-pic img {
-    width: 100%;
-    height: 100%;
-    border-radius: 20px;
-    -o-object-fit: cover;
-       object-fit: cover;
-  }
   .container .con1.on .title .line {
     width: 70%;
   }
@@ -159,6 +133,7 @@ header .menu li:nth-of-type(4) .line {
     opacity: 0;
     transform: translateY(40px);
     transition: 1s;
+    /* con2 스크롤 효과 */
   }
   .container .con2 .con2-inner {
     width: 80%;
@@ -225,6 +200,7 @@ header .menu li:nth-of-type(4) .line {
   }
   .container .con3 {
     padding: 130px 0px;
+    /* con3 스크롤 효과 */
   }
   .container .con3 .con3-inner {
     width: 80%;
@@ -287,6 +263,7 @@ header .menu li:nth-of-type(4) .line {
     opacity: 0;
     transform: translateY(40px);
     transition: 1s;
+    /* con4 스크롤 효과 */
   }
   .container .con4 .con4-inner {
     width: 80%;
@@ -359,11 +336,13 @@ header .menu li:nth-of-type(4) .line {
   }
   .container .con5 {
     padding: 130px 0px;
+    /* con5 스크롤 효과 */
   }
   .container .con5 .con5-inner {
     width: 80%;
     max-width: 1300px;
     margin: 0px auto;
+    /* con5 리스트 */
   }
   .container .con5 .con5-inner .con5-title {
     display: flex;
@@ -508,22 +487,7 @@ header .menu li:nth-of-type(4) .line {
   .container .con1 {
     padding: 100px 0px;
     position: relative;
-  }
-  .container .con1 .circle {
-    width: 40vw;
-    height: 40vw;
-    border-radius: 40vw;
-    background: #fafafa;
-    position: absolute;
-    bottom: -50%;
-    left: -20%;
-    z-index: -1;
-    animation: move 2s infinite alternate;
-  }
-  @keyframes move {
-    100% {
-      transform: translateY(10%);
-    }
+    /* con1 스크롤 효과 */
   }
   .container .con1 .con1-inner {
     width: 80%;
@@ -558,17 +522,6 @@ header .menu li:nth-of-type(4) .line {
     font-size: 20px;
     text-align: left;
   }
-  .container .con1 .con1-inner .con1-content .con1-pic {
-    width: 50%;
-    height: 25vw;
-  }
-  .container .con1 .con1-inner .con1-content .con1-pic img {
-    width: 100%;
-    height: 100%;
-    border-radius: 20px;
-    -o-object-fit: cover;
-       object-fit: cover;
-  }
   .container .con1.on .title .line {
     width: 70%;
   }
@@ -582,6 +535,7 @@ header .menu li:nth-of-type(4) .line {
     opacity: 0;
     transform: translateY(40px);
     transition: 1s;
+    /* con2 스크롤 효과 */
   }
   .container .con2 .con2-inner {
     width: 85%;
@@ -648,6 +602,7 @@ header .menu li:nth-of-type(4) .line {
   }
   .container .con3 {
     padding: 100px 0px;
+    /* con3 스크롤 효과 */
   }
   .container .con3 .con3-inner {
     width: 80%;
@@ -713,6 +668,7 @@ header .menu li:nth-of-type(4) .line {
     opacity: 0;
     transform: translateY(40px);
     transition: 1s;
+    /* con4 스크롤 효과 */
   }
   .container .con4 .con4-inner {
     width: 80%;
@@ -786,11 +742,13 @@ header .menu li:nth-of-type(4) .line {
   }
   .container .con5 {
     padding: 100px 0px;
+    /* con5 스크롤 효과 */
   }
   .container .con5 .con5-inner {
     width: 80%;
     max-width: 1300px;
     margin: 0px auto;
+    /* con5 리스트 */
   }
   .container .con5 .con5-inner .con5-title {
     display: flex;
@@ -887,7 +845,7 @@ header .menu li:nth-of-type(4) .line {
     z-index: 0;
   }
   #visual .visual-wrap h2 {
-    font-size: 6vw;
+    font-size: 32px;
     letter-spacing: 2px;
     color: #fff;
     position: absolute;
@@ -936,22 +894,7 @@ header .menu li:nth-of-type(4) .line {
   .container .con1 {
     padding: 100px 0px;
     position: relative;
-  }
-  .container .con1 .circle {
-    width: 40vw;
-    height: 40vw;
-    border-radius: 40vw;
-    background: #fafafa;
-    position: absolute;
-    bottom: -50%;
-    left: -20%;
-    z-index: -1;
-    animation: move 2s infinite alternate;
-  }
-  @keyframes move {
-    100% {
-      transform: translateY(10%);
-    }
+    /* con1 스크롤 효과 */
   }
   .container .con1 .con1-inner {
     width: 80%;
@@ -984,17 +927,6 @@ header .menu li:nth-of-type(4) .line {
     font-size: 16px;
     text-align: center;
   }
-  .container .con1 .con1-inner .con1-content .con1-pic {
-    width: 50%;
-    height: 30vw;
-  }
-  .container .con1 .con1-inner .con1-content .con1-pic img {
-    width: 100%;
-    height: 100%;
-    border-radius: 20px;
-    -o-object-fit: cover;
-       object-fit: cover;
-  }
   .container .con1.on .title .line {
     width: 50%;
   }
@@ -1008,6 +940,7 @@ header .menu li:nth-of-type(4) .line {
     opacity: 0;
     transform: translateY(40px);
     transition: 1s;
+    /* con2 스크롤 효과 */
   }
   .container .con2 .con2-inner {
     width: 85%;
@@ -1071,6 +1004,7 @@ header .menu li:nth-of-type(4) .line {
   }
   .container .con3 {
     padding: 100px 0px;
+    /* con3 스크롤 효과 */
   }
   .container .con3 .con3-inner {
     width: 80%;
@@ -1132,6 +1066,7 @@ header .menu li:nth-of-type(4) .line {
     opacity: 0;
     transform: translateY(40px);
     transition: 1s;
+    /* con4 스크롤 효과 */
   }
   .container .con4 .con4-inner {
     width: 80%;
@@ -1205,11 +1140,13 @@ header .menu li:nth-of-type(4) .line {
   }
   .container .con5 {
     padding: 100px 0px;
+    /* con5 스크롤 효과 */
   }
   .container .con5 .con5-inner {
     width: 80%;
     max-width: 1300px;
     margin: 0px auto;
+    /* con5 리스트 */
   }
   .container .con5 .con5-inner .con5-title {
     display: flex;

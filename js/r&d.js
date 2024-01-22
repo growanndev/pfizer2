@@ -1,4 +1,7 @@
 $(function () {
+
+
+  /* 스크롤 효과 */
   $(window).scroll(function () {
     let scroll = $(window).scrollTop();
     let baseline = -350;
@@ -14,14 +17,21 @@ $(function () {
     }
 
 
+   
+
     /* pc,태블릿 / 모바일일 경우 con1 효과 나눠서  */
 
     $(window).resize(function() {
+      /* 모바일 */
       if($(window).width() < 768) {
         if (scroll > pic) {
           $('.con1-right p:nth-of-type(2)').addClass('on');
         } 
-      } else {
+        
+      } 
+
+      /* pc, 태블릿 */
+      else {
         if (scroll > pic) {
           $(".pic1").css({ display: "none" });
           $(".pic2").css({ display: "block" });
@@ -34,15 +44,6 @@ $(function () {
     })
     .resize();
     
-
-    // if (scroll > pic) {
-    //   $(".pic1").css({ display: "none" });
-    //   $(".pic2").css({ display: "block" });
-    //   $('.con1-right p:nth-of-type(2)').addClass('on');
-    // } else {
-    //   $(".pic1").css({ display: "block" });
-    //   $(".pic2").css({ display: "none" });
-    // }
 
     if (scroll > con2) {
       $(".con2").addClass("on");
